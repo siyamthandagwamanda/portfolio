@@ -1,10 +1,11 @@
 # Siyamthanda Gwamanda — Developer Journey Portfolio
 
-<img src="https://socialify.git.ci/siyamthandagwamanda/portfolio/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="portfolio" width="640" height="320" />
-
 A React + Vite + TypeScript rebuild of the portfolio, reimagined around a
 "developer RPG" concept: skills as inventory, projects as completed
 missions, and career growth as a level-progression quest path.
+
+<img src="https://socialify.git.ci/siyamthandagwamanda/portfolio/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="portfolio" width="640" height="320" />
+
 
 ## Stack
 
