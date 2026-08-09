@@ -1,0 +1,42 @@
+.wisdom__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.wisdom__title {
+  font-size: 2.2rem;
+  margin-top: 12px;
+}
+
+.wisdom__subtitle {
+  color: var(--text-dim);
+  margin-top: 8px;
+  margin-bottom: 36px;
+}
+
+.wisdom__card {
+  width: 100%;
+  min-height: 130px;
+  background: var(--bg-elevated);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+  transition: transform 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.wisdom__card--spin {
+  opacity: 0.4;
+  transform: scale(0.99);
+}
+
+.wisdom__quote {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text);
+}

@@ -1,0 +1,30 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 48px;
+}
+
+.about__title {
+  font-size: 2.2rem;
+  margin-top: 12px;
+}
+
+.about__body {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 1.05rem;
+  color: var(--text-dim);
+  max-width: 60ch;
+}
+
+.about__body p:first-child {
+  color: var(--text);
+}
+
+@media (max-width: 780px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

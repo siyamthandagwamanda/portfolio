@@ -1,0 +1,85 @@
+.projects__title {
+  font-size: 2.2rem;
+  margin-top: 12px;
+}
+
+.projects__subtitle {
+  color: var(--text-dim);
+  margin-top: 12px;
+  max-width: 50ch;
+}
+
+.projects__grid {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.projects__card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.projects__card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.projects__card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects__index {
+  font-family: var(--font-display);
+  color: var(--text-faint);
+  font-size: 0.85rem;
+}
+
+.projects__status {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  color: var(--accent-2);
+  background: var(--accent-2-soft);
+  padding: 4px 10px;
+  border-radius: 100px;
+}
+
+.projects__card-title {
+  font-size: 1.15rem;
+}
+
+.projects__card-desc {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+.projects__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.projects__tag {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+@media (max-width: 900px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+}
