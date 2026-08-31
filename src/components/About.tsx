@@ -15,9 +15,8 @@ export default function About() {
             determination.
           </p>
           <p>
-            My journey into technology began with a passion for understanding
-            how websites work, and how ideas can be transformed into real
-            digital experiences.
+            My journey into tech began as a creative escape. Drawing on my background in art, 
+            I discovered a passion for transforming imaginative ideas into tangible digital experiences.
           </p>
           <p>
             I've built a strong foundation in HTML, CSS, JavaScript, Git, and
