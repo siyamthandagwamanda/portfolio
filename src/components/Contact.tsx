@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const EMAIL = "gwamandasiyamthanda13@gmail.com";
 const PHONE_DISPLAY = "060 183 9398";
-const PHONE_TEL = "0601839398";
+const PHONE_TEL = "0694874964";
 const GITHUB_HANDLE = "siyamthandagwamanda";
 
 export default function Contact() {
