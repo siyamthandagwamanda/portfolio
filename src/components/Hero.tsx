@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import "./Hero.css";
 
 const LINES = [
-  { prompt: "whoami", output: "siyamthanda_gwamanda" },
-  { prompt: "cat role.txt", output: "aspiring full stack developer" },
-  { prompt: "status --check", output: "curious. determined. levelling up." },
+  { prompt: "Who Am I", output: "siyamthanda_gwamanda" },
+  { prompt: "currently role.txt", output: "aspiring full stack developer" },
+  { prompt: "status --@Mlab Digital Solutions Trainee", output: "training. determined. levelling up." },
 ];
 
 export default function Hero() {
@@ -37,10 +37,10 @@ export default function Hero() {
           <h1 className="hero__title">
             Hello, I'm
             <br />
-            <span className="hero__title-name">Siyamthanda Gwamanda</span>
+            <span className="hero__title-name">Siyamthanda Nzuzwenhle Gwamanda</span>
           </h1>
           <p className="hero__subtitle">
-            I turn curiosity into interfaces — building my way from first
+            Building my way from first
             HTML tag to full stack developer, one quest at a time.
           </p>
           <div className="hero__cta">
@@ -58,7 +58,7 @@ export default function Hero() {
             <span className="hero__dot hero__dot--red" />
             <span className="hero__dot hero__dot--yellow" />
             <span className="hero__dot hero__dot--green" />
-            <span className="hero__terminal-title">guest@portfolio: ~</span>
+            <span className="hero__terminal-title">my@portfolio: ~</span>
           </div>
           <div className="hero__terminal-body">
             {LINES.slice(0, visibleLines).map((line) => (
