@@ -14,7 +14,7 @@ export default function About() {
             believes every great developer starts with curiosity and
             determination.
           </p>
-          
+
           <p>
             My journey into tech began as a creative escape. Drawing on my background in art, 
             I discovered a passion for transforming imaginative ideas into tangible digital experiences.
@@ -29,7 +29,7 @@ export default function About() {
           </p>
 
           <p>
-           My next mission is to grow into a full-stack developer—continuously learning, 
+           My next mission is to grow into a full-stack developer—continuously learning with the help of Mlab, 
            solving problems, and creating technology that helps people.
           </p>
         </div>
